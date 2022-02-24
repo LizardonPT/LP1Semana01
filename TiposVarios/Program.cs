@@ -13,12 +13,14 @@ namespace TiposVarios
             double piplus = 2.14159;
             decimal z = 9.9999m;
             char emoji = '\u00A5';
+            double real = 6.0e13;
 
             Console.WriteLine(number.ToString());
             Console.WriteLine(pi.ToString());
             Console.WriteLine(piplus.ToString());
             Console.WriteLine(z.ToString());
             Console.WriteLine(emoji);
+            Console.WriteLine(real);
         }
     }
 }
