@@ -14,6 +14,8 @@ namespace TiposVarios
             decimal z = 9.9999m;
             char emoji = '\u00A5';
             double real = 6.0e13;
+            bool day = true;
+            bool night = false;
 
             Console.WriteLine(number.ToString());
             Console.WriteLine(pi.ToString());
@@ -21,6 +23,8 @@ namespace TiposVarios
             Console.WriteLine(z.ToString());
             Console.WriteLine(emoji);
             Console.WriteLine(real);
+            Console.WriteLine(day);
+            Console.WriteLine(night);
         }
     }
 }
